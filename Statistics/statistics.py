@@ -2,9 +2,9 @@ from calculator.calculator import calculator
 
 
 class Statistics(calculator):
-    data = []
 
-    def = []
+    class Statistics(Calculator):
 
-    def __init__(self):
-        super().__init__()
+        def mean(self, data):
+            self.result = mean(data)
+            return self.result
