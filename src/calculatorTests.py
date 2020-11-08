@@ -1,6 +1,9 @@
 import unittest
 import csv
+import numpy as np
+import scipy.stats
 from calculator import calculator
+from CsvReader.CsvReader import CsvReader
 
 class MyTestCase(unittest.TestCase):
 

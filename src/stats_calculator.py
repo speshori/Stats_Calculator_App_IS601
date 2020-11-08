@@ -135,6 +135,13 @@ class stats_calculator:
             zlist.append(zscore)
         return zlist
 
+    #population sample
+
+    population = list(range(1, 1000000))
+    value = random.sample(population, 200)
+    print(value)
+
+
 '''
 lst = [3, 9, 17, 21, 98, 203]
 print(stats_calculator().z_score(9, lst))

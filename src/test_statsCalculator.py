@@ -61,5 +61,12 @@ class MyTestCase(unittest.TestCase):
     def test_z_score(self):
         self.assertIs(type(self.calc.z_score(self.lst)), list)
 
+    def mean_confidence_interval(data, confidence=0.95):
+        a = 1.0 * np.array(data)
+        n = len(a)
+        m, se = np.mean(a), scipy.stats.sem(a)
+        h = se * scipy.stats.t.ppf((1 + confidence) / 2., n - 1)
+        return m, m - h, m + h
+
 if __name__ == '__main__':
     unittest.main()
