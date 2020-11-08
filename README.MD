@@ -35,7 +35,9 @@ By: Samir Peshori, Olanrewaju Oyebade
   #### z-score -> return z-scores for each item of a list by utilizing basic functions (subtract, divide) from calculator class and functions from the stats_calculator class (standard deviation, mean)
   Equation: difference of the number and the mean of the set of numbers and that divided by the standard deviation of the set.  Answer: [-1.38, -0.613, 0.153, 0.92, 0.92]
   
-  ##Population Sampling functions
-####Simple random sampling. -> generates random int from a given range.
-####Confidence Interval For a Sample ---> generates the degrees of freedom, confidence_level = 0.95
-####How to Find a Sample Size Given a Confidence Interval and Width (unknown population standard deviation).  --->stddev = std(data, ddof=1)
+## Population Sampling functions
+
+#### Simple random sampling. -> generates random int from a given range.
+
+#### Confidence Interval For a Sample ---> generates the degrees of freedom, confidence_level = 0.95
+#### How to Find a Sample Size Given a Confidence Interval and Width (unknown population standard deviation).  --->stddev = std(data, ddof=1)
